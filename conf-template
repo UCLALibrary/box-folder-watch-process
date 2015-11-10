@@ -1,0 +1,13 @@
+# Replace the placeholder values for 'mount_point', 'sync_src', and 'sync_dest'.
+# Then rename this file so that it has a .conf extension and is ignored by git.
+[RSYNC INFO]
+mount_point=PATH-TO-EXISTING-LOCAL-MOUNT-POINT
+sync_src=PATH-TO-SYNC-SRC
+sync_dest=PATH-TO-LOCAL-SYNC-DESTINATION
+
+[DERIVATIVE GENERATION]
+image_import_format=tif
+image_export_format=jpg
+audio_import_format=wav
+audio_export_format=mp3
+derivative_sizes=100x100 200x200 300x300
