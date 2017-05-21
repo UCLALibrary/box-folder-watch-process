@@ -1,3 +1,6 @@
 # configuration files
 *.conf
 *.config
+
+# backup
+backup
